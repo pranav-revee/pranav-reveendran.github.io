@@ -1,6 +1,6 @@
 # Portfolio site
 
-Personal site for Pranav Reveendran. React, TypeScript, and Vite. The site is the public index of the work. The repositories are the work.
+Personal site for Pranav Reveendran. React, TypeScript, and Vite. One page: hero, about, selected work, a tech-stack archive, experience, projects, and contact. The entry is `src/studio/Studio.tsx`. The repositories are the work.
 
 ```mermaid
 flowchart LR

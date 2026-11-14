@@ -3,14 +3,8 @@
  * Sets up React root with theme provider and imports necessary styles.
  */
 
-import { createRoot } from 'react-dom/client'
-import App from './App.tsx'
-import './styles/theme.css'
-import './index.css'
-import { ThemeProvider } from './context/ThemeContext'
+import { createRoot } from "react-dom/client";
+import Studio from "./studio/Studio.tsx";
+import "./studio/studio.css";
 
-createRoot(document.getElementById("root")!).render(
-  <ThemeProvider>
-    <App />
-  </ThemeProvider>
-);
+createRoot(document.getElementById("root")!).render(<Studio />);
